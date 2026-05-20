@@ -8,14 +8,14 @@ A **pure-Python port of [Bioconductor limma](https://bioconductor.org/packages/r
 - Both Python-style (`lm_fit`, `ebayes`, `top_table`) and R-style (`lmFit`, `eBayes`, `topTable`) names exported
 - `pandas` / `numpy`-friendly
 
-> The import name is **`pylimma`**; the PyPI distribution name is **`limmapy`** (the name `pylimma` was already taken on PyPI by an unrelated project).
+> The import name is **`pylimma`**; the PyPI distribution name is **`omicverse-limma`** (`pip install omicverse-limma`). The names `pylimma` / `limmapy` were unavailable on PyPI, so the distribution carries the omicverse-ecosystem name.
 
 > This is a **standalone mirror** of the implementation developed in [`omicverse`](https://github.com/Starlitnightly/omicverse). It powers `omicverse`'s edgeR / limma-voom differential-expression backends and the `pydeqms` proteomics workflow.
 
 ## Install
 
 ```bash
-pip install limmapy
+pip install omicverse-limma
 ```
 
 ## Quick start
